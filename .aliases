@@ -1,0 +1,18 @@
+# App shortcuts
+alias ii="open -a IntelliJ\ IDEA ."
+alias cl="open -a CLion ."
+alias st="open -a Sourcetree ."
+
+# Politer fuck
+alias ohps=fuck
+
+# Quick tidy (you will need ripgrep)
+alias gdm="git branch --merged | rg -v \"^\*|\s+master\" | xargs git branch -d"
+alias docker-prune="docker image prune -f && docker container prune -f && docker volume prune -f && docker network prune -f"
+
+# Traversal
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
